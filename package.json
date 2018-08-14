@@ -1,0 +1,23 @@
+{
+  "name": "flightsapp",
+  "version": "1.0.0",
+  "description": "landing page for flights",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dragoscherches/Flights.git"
+  },
+  "author": "Dragos Cherches",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dragoscherches/Flights/issues"
+  },
+  "homepage": "https://github.com/dragoscherches/Flights#readme",
+  "devDependencies": {
+    "live-server": "^1.2.0",
+    "node-sass": "^4.9.3"
+  }
+}
